@@ -8,7 +8,7 @@ def get_slavonic_function_words():
     return []
     
 
-def load_corpus_json(json_path: str, skip_ruthenians: bool = False) -> tuple[list[str], list[str], list[str]]:
+def load_corpus_json(json_path: str, **filters) -> tuple[list[str], list[str], list[str]]:
     """
     Carica il JSON e, se skip_ruthenians=True, salta tutti i documenti
     il cui campo 'Epoch' è 'Ruthenian'.
@@ -22,9 +22,9 @@ def load_corpus_json(json_path: str, skip_ruthenians: bool = False) -> tuple[lis
     corpus = []
     # 2) Cicla sui documenti
     for doc in tqdm(raw_docs, desc=f'Loading from {Path(json_path).name}'):
-        # 2a) Applica lo skip se richiesto
-        if skip_ruthenians and doc.get('Epoch', '').strip().lower() == 'ruthenian':
-            print(f"Skipping '{doc.get('Title','<no title>')}' (epoch: Ruthenian)")
+        if _should_skip_file(doc['Title'], filters):
+            
+            print(f'Removing {doc.name}')
             continue
         
         # 2b) Prendi il contenuto e salta se è vuoto
@@ -60,6 +60,23 @@ def load_corpus_json(json_path: str, skip_ruthenians: bool = False) -> tuple[lis
     
     print(f'Total documents: {len(documents)}')
     return documents, epochs, filenames
+
+def _should_skip_file(filename: str, filters: dict) -> bool:
+    """Check if file should be filtered out based on criteria."""
+    checks = {
+        'remove_test': lambda f: "Oustav' stgo i văselenskago iže v Konstantini gradě šestago săbora" in f.lower(),
+    }
+    return any(check(filename) for flag, check in checks.items() if filters.get(flag))
+
+def _should_skip_file(filename: str, filters: dict) -> bool:
+    """Check if file should be filtered out based on criteria."""
+    checks = {
+        'remove_test': lambda f: filters.get('remove_test', False) 
+                                  and "Oustav' stgo i văselenskago iže v Konstantini gradě šestago săbora" in f.lower(),
+        'test_document': lambda f: filters.get('test_document') 
+                                   and f.strip() == filters['test_document'].strip()
+    }
+    return any(check(filename) for flag, check in checks.items() if filters.get(flag))
 
 def _clean_text(text: str) -> str:
     text = text.lower()

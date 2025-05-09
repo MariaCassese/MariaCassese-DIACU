@@ -144,7 +144,7 @@ class DistributionalRandomOversampling:
         replicate[y==1] += multipla
         remaining = missing_positives - multipla*positives
         if remaining > 0:
-            replicate[np.random.choice(np.argwhere(y==1).flatten(), remaining, replace=True)] += 1
+            replicate[np.random.choice(np.argwhere(y==1).flatten(), remaining, replace=False)] += 1
         #ipdb.set_trace()
         return replicate
 

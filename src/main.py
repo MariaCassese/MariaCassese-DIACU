@@ -62,7 +62,7 @@ class ModelConfig:
     rebalance_ratio: float = 0.5
     save_res: bool = True
     #test_genre: bool = False
-    results_filename: str = 'results_credo1.csv'
+    results_filename: str = 'results.csv'
     results_path: str = './results'   
 
     @classmethod
@@ -91,8 +91,8 @@ class EpochshipVerification:
         self.accuracy = 0
         self.posterior_proba = 0
         
-    def load_dataset(self, 
-                     path: str = 'ocs_data_no_ncs.json'
+    def load_dataset(self,  
+                     path: str = 'file_versions/ocs_cs_cleaned_reordered.json'
                      ) -> Tuple[List[str], List[str], List[str]]:
         
         print('Loading data...')
@@ -369,7 +369,7 @@ class EpochshipVerification:
             shuffle=True,
             random_state=self.config.random_state
         )
-        f1 = make_scorer(f1_score, average='weighted', zero_division=0)
+        f1 = make_scorer(f1_score, zero_division=0)
         
         grid_search = GridSearchCV(
             model,
@@ -404,28 +404,16 @@ class EpochshipVerification:
             print(f'Posterior probability: {self.posterior_proba}')
         
         self.accuracy = accuracy_score(y_test, y_pred)
-        f1 = f1_score(y_test, y_pred, average='weighted', zero_division=1.0)
+        f1 = f1_score(y_test, y_pred, average='binary', zero_division=1.0)
         precision, recall, _, _ = precision_recall_fscore_support(
-            y_test, y_pred, average='weighted', zero_division=1.0
+            y_test, y_pred, average='binary', zero_division=1.0
         )
-
-        # Confusion matrix per classe
-        labels = np.unique(np.concatenate([y_test, y_pred]))
-        cm = confusion_matrix(y_test, y_pred, labels=labels)
-
-        per_class_cf = {}
-        for i, cls in enumerate(labels):
-            tp = cm[i, i]
-            fn = cm[i, :].sum() - tp
-            fp = cm[:, i].sum() - tp
-            tn = cm.sum() - (tp + fn + fp)
-            per_class_cf[cls] = {'tn': tn, 'fp': fp, 'fn': fn, 'tp': tp}
-
-        cf = {
-            cls: np.array([m['tn'], m['fp'], m['fn'], m['tp']])
-            for cls, m in per_class_cf.items()
-        }
-
+        print(">>> shape X_test:", X_test.shape)
+        print(">>> len y_test:", len(y_test))
+        assert len(y_test) == X_test.shape[0], "y_test and X_test must have the same length!"
+        cm = confusion_matrix(y_test, y_pred, labels=[0, 1])
+        tn, fp, fn, tp = cm.ravel()
+        cf = np.array([tn, fp, fn, tp])
         
         print(f'Precision: {precision}')
         print(f'Recall: {recall}')
@@ -438,45 +426,30 @@ class EpochshipVerification:
         return self.accuracy, f1, cf, self.posterior_proba
 
     def save_results(self, accuracy: float, f1: float, 
-                 posterior_proba: float, cf: Dict[int, np.ndarray], 
-                 model_name: str, doc_name: str, features: List[str], 
-                 file_name: str, path_name="output.json"):
-        
-        """
-        Save one row per class with (tn, fp, fn, tp) and global metrics.
-        """
+                    posterior_proba: float, cf: np.ndarray, model_name: str, 
+                    doc_name: str, features: List[str], 
+                    file_name: str, path_name="output.json"):
         
         path = Path(path_name)
         print(f'Saving results in {file_name}\n')
         
-        rows = []
-        for cls, metrics in cf.items():
-            tn, fp, fn, tp = metrics.tolist()
-            row = {
-                'Document test': doc_name,
-                'Model': model_name,
-                'Class': cls,
-                'Accuracy': accuracy,
-                'F1': f1,
-                'Posterior Proba': posterior_proba,
-                'TN': tn,
-                'FP': fp,
-                'FN': fn,
-                'TP': tp
-            }
-            rows.append(row)
-        
+        data = {
+            'Document test': doc_name,
+            'Accuracy': accuracy,
+            'Proba': posterior_proba,
+            'Confusion matrix': cf
+            
+        }
         
         output_path = path / file_name
         output_path.parent.mkdir(parents=True, exist_ok=True)
-
-        fieldnames = ['Document test', 'Model', 'Class', 'Accuracy', 'F1', 'Posterior Proba', 'TN', 'FP', 'FN', 'TP']
+        
         with open(output_path, 'a', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(f, fieldnames=data.keys())
             if f.tell() == 0:
                 writer.writeheader()
-            writer.writerows(rows)
-
+            writer.writerow(data)
+        
         print(f"{model_name} results saved in {file_name}\n")
 
 
@@ -496,7 +469,6 @@ class EpochshipVerification:
         mapping = {
             'Old Church Slavonic':  1,
             'Church Slavonic':  0,
-            'Ruthenian': 2,
         }
         
         y = [
@@ -506,12 +478,7 @@ class EpochshipVerification:
 
         print("Class balance:", np.unique(y, return_counts=True))
         
-
         test_indices = list(range(len(filenames)))
-        
-        print(f"→ File disponibili: {filenames}")
-        print(f"→ Indici selezionati per il test: {test_indices}")
-        
 
         for i in test_indices:
             self._process_single_document(

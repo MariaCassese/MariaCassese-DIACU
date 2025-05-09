@@ -58,29 +58,34 @@ class ModelConfig:
     segment_min_token_size: int = 400
     random_state: int = 0
     k_ratio: float = 0.8
-    oversample: bool = True
+    oversample: bool = False
     rebalance_ratio: float = 0.5
     save_res: bool = True
     #test_genre: bool = False
-    results_filename: str = 'results.csv'
+    results_filename: str = 'results_credo1.csv'
     results_path: str = './results'   
 
     @classmethod
     def from_args(cls):
         """Create config from command line args"""
         parser = argparse.ArgumentParser()
+        parser.add_argument('--test-document', default="Oustav' stgo i văselenskago iže v Konstantini gradě šestago săbor",
+                        help='Test document (empty=full LOO, epoch=epoch LOO, doc=specific doc)')
         parser.add_argument('--results-filename', default='results.csv',
                     help='Filename for saving results')
         parser.add_argument('--results-path', 
                     default='./results',
                     help='Directory path for saving results')
         args = parser.parse_args()
+        
+        if '--test-document' not in sys.argv:
+            args.test_document = ''
             
         config = cls()
         config.results_filename = args.results_filename
         config.results_path = args.results_path
         
-        return config
+        return config, args.test_document
             
 class EpochshipVerification:
     """Main class for epochship verification system"""
@@ -91,14 +96,17 @@ class EpochshipVerification:
         self.accuracy = 0
         self.posterior_proba = 0
         
-    def load_dataset(self,  
-                     path: str = 'ocs_cs_all_filtered.json'
+    def load_dataset(self,
+                      test_document: str,   
+                     path: str = 'file_versions/documenti_modificati_credo1.json'
                      ) -> Tuple[List[str], List[str], List[str]]:
         
         print('Loading data...')
         documents, epochs, filenames = load_corpus_json(
             json_path=path, 
             skip_ruthenians=False,
+            remove_test=True,
+            test_document=test_document 
         )
         print('Data loaded.')
         return documents, epochs, filenames
@@ -307,24 +315,24 @@ class EpochshipVerification:
         if feature_sets_dev_orig:
             X_dev_stacked_orig = hstacker._hstack(feature_sets_dev_orig)
             X_test_stacked_orig = hstacker._hstack(feature_sets_test_orig)
-            #print(f'X_dev_stacked_orig shape: {X_dev_stacked_orig.shape}')
-            #print(f'X_test_stacked_orig shape: {X_test_stacked_orig.shape}')
+            print(f'X_dev_stacked_orig shape: {X_dev_stacked_orig.shape}')
+            print(f'X_test_stacked_orig shape: {X_test_stacked_orig.shape}')
 
         X_dev_stacked = hstacker._hstack(feature_sets_dev)
         X_test_stacked = hstacker._hstack(feature_sets_test)
 
-        #print(f'X_dev_stacked shape: {X_dev_stacked.shape}')
-        #print(f'X_test_stacked shape: {X_test_stacked.shape}')
+        print(f'X_dev_stacked shape: {X_dev_stacked.shape}')
+        print(f'X_test_stacked shape: {X_test_stacked.shape}')
 
         y_dev_final = y_dev_oversampled if self.config.oversample else y_dev
         y_test_final = y_test_oversampled if self.config.oversample else y_test
 
-        """print('\nFeature vectors extracted.\n')
+        print('\nFeature vectors extracted.\n')
         print(f'Vector document final shape: {X_dev_stacked.shape}')
         print(f"\nX_dev_stacked: {X_dev_stacked.shape[0]}")
         print(f"y_dev: {len(y_dev_final)}")
         print(f"groups_dev: {len(groups_dev)}")
-        print(f"groups_dev_orig: {len(orig_groups_dev)}")"""
+        print(f"groups_dev_orig: {len(orig_groups_dev)}")
 
         if self.config.oversample:
             return (X_dev_stacked, X_test_stacked, y_dev_final, y_test_final, 
@@ -369,7 +377,7 @@ class EpochshipVerification:
             shuffle=True,
             random_state=self.config.random_state
         )
-        f1 = make_scorer(f1_score, zero_division=0)
+        f1 = make_scorer(f1_score, average='weighted', zero_division=0)
         
         grid_search = GridSearchCV(
             model,
@@ -404,17 +412,27 @@ class EpochshipVerification:
             print(f'Posterior probability: {self.posterior_proba}')
         
         self.accuracy = accuracy_score(y_test, y_pred)
-        f1 = f1_score(y_test, y_pred, average='binary', zero_division=1.0)
+        f1 = f1_score(y_test, y_pred, average='weighted', zero_division=1.0)
         precision, recall, _, _ = precision_recall_fscore_support(
-            y_test, y_pred, average='binary', zero_division=1.0
+            y_test, y_pred, average='weighted', zero_division=1.0
         )
-        print(">>> shape X_test:", X_test.shape)
-        print(">>> len y_test:", len(y_test))
-        assert len(y_test) == X_test.shape[0], "y_test and X_test must have the same length!"
-        #cf = confusion_matrix(y_test, y_pred).ravel()
-        cm = confusion_matrix(y_test, y_pred, labels=[0, 1])
-        tn, fp, fn, tp = cm.ravel()
-        cf = np.array([tn, fp, fn, tp])
+
+        # Confusion matrix per classe
+        labels = np.unique(np.concatenate([y_test, y_pred]))
+        cm = confusion_matrix(y_test, y_pred, labels=labels)
+
+        per_class_cf = {}
+        for i, cls in enumerate(labels):
+            tp = cm[i, i]
+            fn = cm[i, :].sum() - tp
+            fp = cm[:, i].sum() - tp
+            tn = cm.sum() - (tp + fn + fp)
+            per_class_cf[cls] = {'tn': tn, 'fp': fp, 'fn': fn, 'tp': tp}
+
+        cf = {
+            cls: np.array([m['tn'], m['fp'], m['fn'], m['tp']])
+            for cls, m in per_class_cf.items()
+        }
 
         
         print(f'Precision: {precision}')
@@ -423,47 +441,61 @@ class EpochshipVerification:
         print(f'F1: {f1}\n')
         print(classification_report(y_test, y_pred, zero_division=1.0))
         print(f'\nConfusion matrix: (tn, fp, fn, tp)\n{cf}\n')
-        """print(f"Random seed: {self.config.random_state}")"""
+        print(f"Random seed: {self.config.random_state}")
         
         return self.accuracy, f1, cf, self.posterior_proba
 
     def save_results(self, accuracy: float, f1: float, 
-                    posterior_proba: float, cf: np.ndarray, model_name: str, 
-                    doc_name: str, features: List[str], 
-                    file_name: str, path_name="output.json"):
+                 posterior_proba: float, cf: Dict[int, np.ndarray], 
+                 model_name: str, doc_name: str, features: List[str], 
+                 file_name: str, path_name="output.json"):
+        
+        """
+        Save one row per class with (tn, fp, fn, tp) and global metrics.
+        """
         
         path = Path(path_name)
         print(f'Saving results in {file_name}\n')
         
-        data = {
-            'Document test': doc_name,
-            'Accuracy': accuracy,
-            'Proba': posterior_proba,
-            'Confusion matrix': cf
-            
-            #'Features': features
-        }
+        rows = []
+        for cls, metrics in cf.items():
+            tn, fp, fn, tp = metrics.tolist()
+            row = {
+                'Document test': doc_name,
+                'Model': model_name,
+                'Class': cls,
+                'Accuracy': accuracy,
+                'F1': f1,
+                'Posterior Proba': posterior_proba,
+                'TN': tn,
+                'FP': fp,
+                'FN': fn,
+                'TP': tp
+            }
+            rows.append(row)
+        
         
         output_path = path / file_name
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
+        fieldnames = ['Document test', 'Model', 'Class', 'Accuracy', 'F1', 'Posterior Proba', 'TN', 'FP', 'FN', 'TP']
         with open(output_path, 'a', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=data.keys())
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
             if f.tell() == 0:
                 writer.writeheader()
-            writer.writerow(data)
-        
+            writer.writerows(rows)
+
         print(f"{model_name} results saved in {file_name}\n")
 
 
-    def run(self, save_results: bool = True, 
+    def run(self, test_document: str, save_results: bool = True, 
             filter_dataset: bool = False):
         """Run the complete epochship verification process"""
         start_time = time.time()
         print(f'Start time: {time.strftime("%H:%M")}')
         print(f'Building LOO model\n')
 
-        documents, epochs, filenames = self.load_dataset()
+        documents, epochs, filenames = self.load_dataset(test_document)
         
         filenames = [f'{filename}_0' for filename in filenames]
 
@@ -472,6 +504,8 @@ class EpochshipVerification:
         mapping = {
             'Old Church Slavonic':  1,
             'Church Slavonic':  0,
+            'New Church Slavonic': 2,
+            'Ruthenian': 3,
         }
         
         y = [
@@ -481,7 +515,23 @@ class EpochshipVerification:
 
         print("Class balance:", np.unique(y, return_counts=True))
         
-        test_indices = list(range(len(filenames)))
+        if test_document:
+            # Se c'è test_document specifico, testa solo quello
+            test_indices = [i for i, filename in enumerate(filenames) 
+                        if test_document in filename]
+        else:
+            test_indices = list(range(len(filenames)))
+        
+        # —— Debug/Verifica ——
+        print(f"→ Argomento --test-document: {test_document!r}")
+        print(f"→ File disponibili: {filenames}")
+        print(f"→ Indici selezionati per il test: {test_indices}")
+        if test_document:
+            assert len(test_indices) == 1, (
+                f"Mi aspettavo esattamente un match per '{test_document}', "
+                f"ma ne ho trovati {len(test_indices)}."
+            )
+        
 
         for i in test_indices:
             self._process_single_document(
@@ -606,11 +656,12 @@ class EpochshipVerification:
     
 
 def main():
-    config = ModelConfig.from_args()
+    config, test_document = ModelConfig.from_args()
     #nlp = stanza.Pipeline('cu', processors='tokenize')
     nlp = spacy.load('ru_core_news_lg')
     av_system = EpochshipVerification(config, nlp)
     av_system.run(
+        test_document,
         save_results=config.save_res,
         filter_dataset=False,
     )

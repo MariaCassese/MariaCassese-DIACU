@@ -8,7 +8,7 @@ docs = full.get('Documents', [])
 if not docs:
     raise ValueError("The field 'Documents' doesn't exist")
 
-target_epochs = {'Old Church Slavonic', 'Church Slavonic','Ruthenian'}
+target_epochs = {'Old Church Slavonic', 'Church Slavonic'}
 
 filtered_docs = [
     doc for doc in docs
@@ -17,7 +17,7 @@ filtered_docs = [
 
 output = {'Documents': filtered_docs}
 
-with open('ocs_data_no_ncs.json', 'w', encoding='utf-8') as f:
+with open('ocs_cs_all_filtered.json', 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
 

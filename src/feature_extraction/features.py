@@ -599,17 +599,17 @@ class FeaturesPOST:
     def transform(self, documents, y=None):
         self.count_pos_tags(documents)
         post_features = self.vectorizer.transform(documents)
-        #print("=== FeaturesPOST.transform ===")
-        #print("shape:", post_features.shape)
+        print("=== FeaturesPOST.transform ===")
+        print("shape:", post_features.shape)
         # stampa i primi 5 POS-n-gram (colonne) effettivamente NON NULLI nel doc 0
         row0 = post_features[0]
         nz_cols = row0.nonzero()[1]
-        #print("non-zero cols in row 0:", nz_cols[:5])
+        print("non-zero cols in row 0:", nz_cols[:5])
         # ottieni i nomi di quegli n-grammi POS
         feature_names = self.vectorizer.get_feature_names_out()
-        #print("example features:", [feature_names[i] for i in nz_cols[:5]])
-        #print("first 5 values:", row0.data[:5])
-        #print("===============================")
+        print("example features:", [feature_names[i] for i in nz_cols[:5]])
+        print("first 5 values:", row0.data[:5])
+        print("===============================")
         #ipdb.set_trace()
         return post_features
 
@@ -617,14 +617,14 @@ class FeaturesPOST:
         self.count_pos_tags(documents)
         post_features = self.vectorizer.fit_transform(documents)
                 # ───> stesso controllo in fase di fit_transform
-        #print("=== FeaturesPOST.fit_transform ===")
-        #print("shape:", post_features.shape)
+        print("=== FeaturesPOST.fit_transform ===")
+        print("shape:", post_features.shape)
         # es. prima riga
         row0 = post_features[0]
         nz = row0.nonzero()[1]
-        #print("ex POS-n-grams:", [self.vectorizer.get_feature_names_out()[i] for i in nz[:5]])
-        #print("vals:", row0.data[:5])
-        #print("===============================")
+        print("ex POS-n-grams:", [self.vectorizer.get_feature_names_out()[i] for i in nz[:5]])
+        print("vals:", row0.data[:5])
+        print("===============================")
         #ipdb.set_trace()
         return post_features
 
@@ -745,8 +745,8 @@ class FeatureSetReductor:
             #ipdb.set_trace()
 
         self.feat_sel = SelectKBest(self.measure, k=self.k)
-        #print('features in:', self.features_in, 'k:', self.k)
-        #print()
+        print('features in:', self.features_in, 'k:', self.k)
+        print()
         #ipdb.set_trace()
 
         if self.normalize:
@@ -800,15 +800,15 @@ class FeatureSetReductor:
 
             positives = ytr.sum()
             nD = len(ytr)
-            #print('After oversampling')
-            #print(f'positives = {positives} (prevalence={positives*100/nD:.2f}%)')
-            #print(Xtr.shape, len(ytr))
-            #print(Xte.shape)
+            print('After oversampling')
+            print(f'positives = {positives} (prevalence={positives*100/nD:.2f}%)')
+            print(Xtr.shape, len(ytr))
+            print(Xte.shape)
             #ipdb.set_trace()
         
         else:
-            #print('Duplicating vectors to match oversampled data')
-            #print('Type of Xtr and Xte', type(Xtr), type(Xte))
+            print('Duplicating vectors to match oversampled data')
+            print('Type of Xtr and Xte', type(Xtr), type(Xte))
 
             Xtr = [Xtr[i] for i in original_indices]
             ytr = [ytr[i] for i in original_indices]
@@ -826,8 +826,8 @@ class FeatureSetReductor:
             
            
 
-            #print(Xtr.shape, len(ytr))
-            #print(Xte.shape)
+            print(Xtr.shape, len(ytr))
+            print(Xte.shape)
 
         return Xtr, ytr, Xte, yte, groups_oversampled
 
