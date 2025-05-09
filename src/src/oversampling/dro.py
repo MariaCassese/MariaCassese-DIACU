@@ -32,6 +32,8 @@ class DistributionalRandomOversampling:
         self.rebalance_ratio = rebalance_ratio
         self.latent_tfidf = TfidfTransformer()
         self.dummy=False
+        # self.random_state = random_state
+        # np.random.seed(self.random_state)
 
     def fit_transform(self, X, y, words_by_doc):
         """
@@ -68,7 +70,10 @@ class DistributionalRandomOversampling:
         L = self.latent_tfidf.fit_transform(L)
         X_ = hstack([O,L])
 
+        #self.original_indices = np.repeat(original_indices, samples)
+
         y = self._oversampling_observed(y, samples)
+        #ipdb.set_trace()
 
         return X_, y
 
@@ -90,6 +95,8 @@ class DistributionalRandomOversampling:
         L = self._oversampling_latent(X, words_by_doc, samples)
         L = self.latent_tfidf.transform(L)
         X_ = hstack([O, L])
+        #y = self._oversampling_observed(y, samples)
+        #ipdb.set_trace()
 
 
         return X_
@@ -114,6 +121,8 @@ class DistributionalRandomOversampling:
                 latent_row = csr_matrix(np.random.multinomial(words_by_doc[i], pvals=p[i]))
                 latent_space.append(latent_row)
         latent_space = vstack(latent_space)
+        #ipdb.set_trace()
+
         return  latent_space
     
 
@@ -121,18 +130,22 @@ class DistributionalRandomOversampling:
         # replicates elements of X as many times as indicated by the entries in samples
         nD = X.shape[0]
         observed_space = X[np.repeat(np.arange(nD), samples)]
+        #ipdb.set_trace()
         return observed_space
 
     def _samples_to_match_ratio(self, y):
         replicate = np.ones_like(y)
         nD = len(y)
+        #ipdb.set_trace()
         positives = y.sum()
+        #ipdb.set_trace()
         missing_positives = int((positives - nD*self.rebalance_ratio)/(self.rebalance_ratio - 1)) #-19
         multipla = int(missing_positives // positives) #-1
         replicate[y==1] += multipla
         remaining = missing_positives - multipla*positives
         if remaining > 0:
             replicate[np.random.choice(np.argwhere(y==1).flatten(), remaining, replace=True)] += 1
+        #ipdb.set_trace()
         return replicate
 
 
@@ -148,8 +161,10 @@ def as_array_of_ints(val, nD):
 def feature_informativeness(X, y):
     X = csc_matrix(X)
     nD, nF = X.shape
+    #ipdb.set_trace()
     positives = y.sum()
     negatives = nD - positives
+    #ipdb.set_trace()
 
     # computes the 4-cell contingency tables for each feature
     TP = np.asarray((X[y == 1] > 0).sum(axis=0)).flatten()
@@ -157,6 +172,7 @@ def feature_informativeness(X, y):
     FP = np.asarray((X[y == 0] > 0).sum(axis=0)).flatten()
     TN = negatives - FP
     _4cell = [ContTable(tp=TP[i], tn=TN[i], fp=FP[i], fn=FN[i]) for i in range(nF)]
+    #ipdb.set_trace()
 
     # applies the tsr_function to the 4-cell counters
     return np.array(list(map(information_gain, _4cell)))
@@ -165,4 +181,5 @@ def feature_informativeness(X, y):
 def get_weight_matrix(X, y):
     feat_info = feature_informativeness(X, y)
     Xnorm = normalize(X, norm='l1', axis=0, copy=True)
+    #ipdb.set_trace()
     return csr_matrix(Xnorm.multiply(feat_info)).T

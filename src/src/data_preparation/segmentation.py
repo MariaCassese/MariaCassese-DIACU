@@ -19,6 +19,7 @@ class Segmentation:
     min_tokens: int = 8
     keep_full: bool = True
     groups: List[str] = None
+    #nlp: Optional[stanza.Pipeline] = None
     
     def __post_init__(self):
         """Validate initialization parameters."""
@@ -26,6 +27,17 @@ class Segmentation:
             raise ValueError(
                 f'Unknown policy, valid ones are {self.VALID_POLICIES}'
             )
+        #if self.split_policy=='by_sentence' and self.nlp is None:
+            #raise ValueError("Per split by_sentence devi passare `nlp=stanza.Pipeline(...)`")
+        
+    #def _token_count(self, text: str) -> int:
+        """
+        Conta i token in `text` usando Stanza, 
+        quindi funziona anche con i caratteri arcaici.
+        """
+        #doc = self.nlp(text)
+        # ogni sentence ha una lista di tokens
+        #return sum(len(sent.tokens) for sent in doc.sentences)
     
     def fit(self, X: List[str], y: List[str]) -> 'Segmentation':
         """Fit method to maintain scikit-learn API compatibility."""
@@ -58,11 +70,13 @@ class Segmentation:
                 else self._split_by_sentences(text)
             )
             
+            # Create windows of fragments
             text_fragments = self._create_windows(
                 text_fragments, 
                 self.tokens_per_fragment
             )
             
+            # Extend results
             fragments.extend(text_fragments)
             groups.extend([group] * len(text_fragments))
             
@@ -89,11 +103,17 @@ class Segmentation:
     
     def _split_by_sentences(self, text: str) -> List[str]:
         """Split text into sentences and merge short ones."""
+        #doc = self.nlp(text)
+        #sentences = [
+        #' '.join(token.text for token in sent.tokens)
+        #for sent in doc.sentences
+        #]
         
         sentences = sent_tokenize(text)
         
         i = 0
         while i < len(sentences):
+            #if len(tokenize(self.nlp(sentences[i]))) < self.min_tokens:
             if len(tokenize(sentences[i])) < self.min_tokens:
                 if i < len(sentences) - 1:
                     # Merge with next sentence
@@ -117,6 +137,8 @@ class Segmentation:
         current_batch = ""
         
         for fragment in text_fragments:
+            #token_count = len(word_tokenize(fragment))
+            #token_count = self._token_count(fragment)
             token_count = len(word_tokenize(fragment))
             
             if token_count >= tokens_per_fragment:
@@ -129,6 +151,7 @@ class Segmentation:
                 else fragment
             )
             
+            #if self._token_count(current_batch) >= tokens_per_fragment:
             if token_count >= tokens_per_fragment:
                 new_fragments.append(current_batch.strip())
                 current_batch = ""
@@ -151,5 +174,9 @@ class Segmentation:
             
         return indexed_groups
     
+# helper function
 def tokenize(text):
+    #return [word.text.lower() for sentence in doc.sentences
+                             #for word in sentence.words
+                             #if any(char.isalpha() for char in word.text)]
     return [token.lower() for token in nltk.word_tokenize(text) if any(char.isalpha() for char in token)]
