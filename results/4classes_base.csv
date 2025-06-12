@@ -1,0 +1,2609 @@
+Document test,Label,Prediction,Accuracy,Proba,Confusion matrix
+Zografsko Evangelie_0,1,[0],0.0,0.8422892743487638,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo za veliki Petăk_0,1,[0],0.0,0.8721780793561303,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Zapovědaniě o prazd'nicěchă_0,0,[0],1.0,0.9895740270926128,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o stěi troici tvari i o sǫdě_0,0,[0],1.0,0.9774374995466202,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o stěi troici i o tvari i o sǫdě_0,0,[0],1.0,0.9739675847702822,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie o prěč'st'nyich tainachă_0,0,[0],1.0,0.9798466539563064,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Prěppdobnomu i bgonosnomu otcu ioannu pustynožitelju pylskomu kanon'i pěvaemu vă sǫbotǫ_0,0,[0],1.0,0.9999952767577706,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+žitie i žizn' prpodbnaago otca našego ilariona epskpa moglenskago_0,0,[0],1.0,0.9954657922430918,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+pochvalnoe stym' velimym' iravnoapsto'nym' crem' Konstantinou i Eleně_0,0,[0],1.0,0.9922276734982037,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvalnoe stoi velikomici nedli_0,0,[0],1.0,0.990129746550482,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Druga molitva za rodilka_0,0,[0],1.0,0.9890335305418808,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Torožde Eveimia patriarcha Trănov'skago, kă sveščenněišomu mitropolitu Ougrovlachiiskomou, kură An'eimou_0",0,[0],1.0,0.9907009416637115,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie i žizn' prěpodonyǫ matere našǫ Filofei_0,0,[0],1.0,0.9908317162965207,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The tale of Igor’s campaign_0,0,[0],1.0,0.9477887831010298,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Eveimia patriarcha Trănov'skago, kă Nikodimou, sveščennoinokou iže vă Tismeně_0",0,[0],1.0,0.9983975111070482,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bož(')stvnaa slouž'ba prěždesvęnnaa_0,0,[0],1.0,0.9904411314287946,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Torožde Eveimia, patriarcha Trănov'skago, poslanie kă Kvprianou mnichou_0",0,[0],1.0,0.9922614473759311,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Bož'st'vnaa služba iže vă svętychă otca naševo Ivanna Zlatoustago, archieposkopa Kostantině grada_0",0,[0],1.0,0.9994357408416269,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Torožde molitvy vă načalo indikty, byvšu i togda cămrătokosiu_0",0,[0],1.0,0.9999829195964546,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Blagodarim tę, gospodi, bože našă, o văsěch, ichže ot věka_0",0,[0],1.0,0.9293794111357762,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Togožde molitva za bezdăždia_0,0,[3],0.0,0.9970826072205926,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Pochvalno slovo za Ioan, episcop Polivotski_0",0,[0],1.0,0.990411239024265,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Afanasij Nikitin’s journey beyond three seas_0,0,[0],1.0,0.994720942309439,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The tale of Dracula_0,0,[0],1.0,0.9999999030883168,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo pochvlal'no na pamjat' styima i prěslav'nyima oučitelema clověn'skou jazykou_0,0,[0],1.0,0.9834345841390572,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The tale of Luka Kolocskij_0,0,[0],1.0,0.9999999999999996,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Missive from Prince Ivan of Pskov, 1463–1465_0",0,[0],1.0,0.9985106533319046,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Služba na carica Teofana_0,0,[0],1.0,0.9910545973125167,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Domostroj_0,0,[0],1.0,0.9976911854903945,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o Sivilě (I red.)_0,0,[0],1.0,1.0,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Oukaz' za ga našego IsCha (II red.)_0,0,[0],1.0,0.9909834125917945,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slavjanska versija na chronikata na Georgi Sinkel_0,0,[0],1.0,0.9999999335831584,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The taking of Pskov_0,0,[0],1.0,0.9999998550026349,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+V'pros' Epifanija narečen'naa v' mniš'cěm' činou Eutichii i byvšemu patriarchou Konstantdina grada k' osveščen'nomou An'dreju za Christa Ourodivaago i vsako bouistvo ověščavša o Kon'stan'dině gradě_0,0,[0],1.0,0.999999999907973,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Service for St. Ivan of Rila_0,0,[0],1.0,0.9077482648141376,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na stǫjǫ paschǫ_0,0,[0],1.0,0.9830755557333186,"[[0 1 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo za posta i za molitvata_0,0,[0],1.0,0.9999996186267639,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo za tozi vremenen život_0,0,[0],1.0,0.9999999194028334,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvala styichă m mǫčenikă_0,0,[0],1.0,0.9953096793764769,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Molitva za rodilka sled raždaneto_0,0,[0],1.0,0.8993735002495562,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The tale of the fall of Constantinople_0,0,[0],1.0,0.9661459988969158,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Molitva za văcărkovlenie na novorodeno na 40-ja den_0,0,[0],1.0,0.9707590334089568,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Oukaz' Kako S'vr'ši G' naš' Iv(c) Chs_0,0,[0],1.0,0.9983678575409465,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pově(s) prědivna ispl'njen' strastei i tretěnia i tain'stvo velie R(ž) okri b' ugodn'ikoo(m) svoi(m) O mimoš'(d)ši(ch) i grědoušč(ch) iže v' st'i(ch) oca našego mefodia epp(c)kupa papar'skagoo skazanie istin'noe o cri(ch) i poslědnich' lěte(ch)_0,0,[0],1.0,0.9911374390984641,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Văprosă Nikodimov_0,0,[0],1.0,0.9628771766490795,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Trojanski Damaskin_0,0,[0],1.0,0.9997523575597387,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Poučenie pred pričastie_0,0,[0],1.0,0.9817168459498675,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Materials for the history of the schism_0,0,[0],1.0,0.9999999989518389,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Vesti-Kuranty_0,0,[0],1.0,0.999995766967115,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Ckazanie Isaie pr(o)ka kako v'zne(c)n' b'i(c) agglo(m) do zgo nb(c)'i_0,0,[0],1.0,0.9998380317948445,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Mc' okovmpii imat dni la dn' imat sča ai a' nošč', gi vă fi den' pamet prěpodobnago otca našego ioanna poust'inižitelja ryl'skago_0",0,[0],1.0,0.9971757810600909,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Čjudesa stgo Nikolia_0,0,[0],1.0,0.9697252951153438,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo Kako zače se samovila_0,0,[0],1.0,0.9999999504540134,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Skazanie iz'javljenno o'pi'smene_0,0,[0],1.0,0.9999999576200773,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Tikveški sbornik_0,0,[0],1.0,0.9999999999990052,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Uka(z) za ga nšego is'cha kako by(s) msca martia_0,0,[0],1.0,0.9999903374659539,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Skazanie kako č'(s)ti ezy(k)_0,0,[0],1.0,0.9999999999977176,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na stǫjǫ paschǫ_0,0,[0],1.0,0.9830603465816221,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Loveški damaskin_0,0,[0],1.0,0.9152589083825341,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Oustav' bož(')stvennyę služby svętago apostola Iakova, brata gospodnę_0",0,[0],1.0,0.9849203204551757,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Testament of Ivan Jurievich Grjaznoj_0,0,[0],1.0,0.9886577317884442,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Mitarstva na dušata /na Blažena Teodora_0,2,[0],0.0,0.9998763582621835,"[[0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]]"
+Correspondence of Peter the Great_0,2,[0],0.0,0.9462616237372687,"[[0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]]"
+Istorija Slavjanob'lgarska_0,2,[0],0.0,0.9980099879231231,"[[0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]]"
+Kiev Missal_0,1,[0],0.0,0.5104909842303803,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Razumnik-ukaz (II red. fragment)_0,0,[0],1.0,0.9999425431325344,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie na sv. Teodora Aleksandrijska_0,0,[0],1.0,0.9979064586915561,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Beležki na b'lgarskite knižovnici X-XVIII veka_0,0,[0],1.0,0.9996457297053748,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Učitelno evangelie_0,0,[0],1.0,0.9816614351899341,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Trebnik Grigorovič 32_0,0,[0],1.0,0.9970309993579731,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Kanonă Glasă i pěsn' a_0,0,[0],1.0,0.9548654244755197,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na blagověščenie stěi bci_0,0,[0],1.0,0.9726799952926005,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na blagověščenie stěi bci_0,0,[0],1.0,0.9726799952926005,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Služba za părvomăčenik Stefan i za Stefan i papa Rimski_0,1,[0],0.0,0.9917574527175075,"[[0 0 0 0]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo stgo Polouta Rim'skago o tl'kovanii danilově_0,0,[0],1.0,0.9999998368007963,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie skazano o prěmudtosti akirievě kako oučaše sestričikja svoe anadana_0,0,[0],1.0,0.9910332210173156,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o adamě i o evvě o sačela do s'vr'šenie oukaz' oče bl(c)vi_0,0,[0],1.0,0.999999894974302,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o pradednago avraama o(č) bl(c)vi_0,0,[0],1.0,0.9999999919001435,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+molitva za babuvala (akuširala) žena_0,0,[0],1.0,0.9999825829706279,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Varlaam’s donation charter to the Xutyn monastery_0,0,[0],1.0,0.9368649273773623,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+molitva za babuvala (akuširala) žena_0,0,[0],1.0,0.9999825829706279,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o stei troici kako go(s)ti avram'_0,0,[0],1.0,0.9999401785168789,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+(o) velikie petki prěz' godi_0,0,[0],1.0,0.9999217597839304,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Blacho-bălgarski gramoti_0,0,[0],1.0,0.9971797801232525,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Părvo slovo protiv arianite_0,1,[0],0.0,0.9871660112226994,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Charter of Prince Jurij Svjatoslavich of Smolensk on the alliance with Poland and Lithuania, 1386_0",0,[0],1.0,0.9649236116576564,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodnogo Aleksandra Svirskogo_0,0,[0],1.0,0.9892027642473387,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Antonija Sijskogo_0,0,[0],1.0,0.9920753859633862,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Grigorija Pel'šemskogo_0,0,[0],1.0,0.9929738096655609,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Dimitrija Priluckogo_0,0,[0],1.0,0.9887918277870745,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Statute of Prince Vladimir_0,0,[0],1.0,0.9536561500178302,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Dionisija Glušickogo_0,0,[0],1.0,0.9933243141991552,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Dionisija Glušickogo (pochvala)_0,0,[0],1.0,0.9892760969648282,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Kirilla Novoezerskogo_0,0,[0],1.0,0.990333988004242,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Kornilija Komel'skogo_0,0,[0],1.0,0.9890654563786261,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Kornilija Komel'skogo (Pochvala)_0,0,[0],1.0,0.9907310405105018,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Pavla Obnorskogo (žitie)_0,0,[0],1.0,0.9962192061153096,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Pavla Obnorskogo (chudesa)_0,0,[0],1.0,0.9885196526441647,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie prepodobnogo Sergija Nuromskogo_0,0,[0],1.0,0.9938233061061748,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Gramota Novgoroda Ljubeku s trebovaniem vozvrata tovarov, nagrablennych morskimi razbojnikami u novgorodcev. Gramoty Velikogo Novgoroda i Pskova_0",0,[3],0.0,0.9812298830044223,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Dogovornaja gramota Velikogo Novgoroda i Pskova s episkopom Jur’evskim o peremirii na 30 let. Gramoty Velikogo Novgoroda i Pskova_0,0,[3],0.0,0.8728629412372355,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Colophon to Mstislav’s Gospel book_0,0,[0],1.0,0.9999999996178486,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otkupnaja gramota Jakima Gureeva i Matveja Petrova u namestnika Grigorija Vasil’eviča na sud v Obonež’e. Gramoty Velikogo Novgoroda i Pskova_0,0,[3],0.0,0.8680584979869678,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Gramota velikogo knjazja Dmitrija Ivanoviča Andreju Frjazinu o požalovanii ego Pečeroju v kormlenie. Gramoty Velikogo Novgoroda i Pskova_0,0,[0],1.0,0.5951349280123935,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Kupčaja popa Petra u Trofima, Haritona i Dementija na navolok na reke Ljavle. Gramoty Velikogo Novgoroda i Pskova_0",0,[3],0.0,0.8729390374243076,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Kupčaja novgorodskogo posadnika Dmitrija Vasil’eviča u Hovry Vasil’evoj dočeri Tojvutovoj na učastki v rekah Vyge, Shue, Kemi i na Kil’boostrove. Gramoty Velikogo Novgoroda i Pskova_0",0,[0],1.0,0.5597721897444574,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Obodnaja meževaja zemljam velikogo knjazja i monastyrej Jur’eva, Vjažickogo, Paleostrovskogo i Muromskogo v pogostach Shal’skom i Nikol’skom Pudožskom i v volostkach tech že pogostov. Gramoty Velikogo Novgoroda i Pskova_0",0,[0],1.0,0.5018742783844758,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Žalovannaja gramota, vvoznaja i nesudimaja, p. Filareta K. A. i O. A. Surminym na pomest’e ich otca v sc. Bunkove s derevnjami i pustošami, v Sotskoj vol., Kostromskogo u. // Akty feodal’nogo zemlevladenija i chozjajstva_0",0,[0],1.0,0.9729942946012823,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Carskaja gramota kungurskomu voevode Fedoru Suchotinu ob okazanii sodejstvija gostinoj sotne Alekseju Ušakovu v sbore tamožennyh i kabackich pošlin. Kungurskie akty XVII veka_0,0,[0],1.0,0.7809230646473794,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiski v Moskvu kungurskogo voevody Alekseja Kalitina. Kungurskie akty XVII veka_0,0,[0],1.0,0.9698119707497618,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+I. F. Strešnev V. V. Golicynu. Moskovskaja delovaja i bytovaja pis’mennost’ XVII veka_0,0,[0],1.0,0.9999988870011012,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+I. F. Strešnev V. V. Golicynu. Moskovskaja delovaja i bytovaja pis’mennost’ XVII veka_0,0,[0],1.0,0.9999988870011012,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Mariinsko evangelie_0,1,[0],0.0,0.8908703563323825,"[[0 0 0 0]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Kratăk Zlatostruj_0,0,[0],1.0,0.9871982985207227,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+T. I. Golicyna V. V. Golicynu. Moskovskaja delovaja i bytovaja pis’mennost’ XVII veka_0,0,[0],1.0,0.9817809063425835,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+T. I. Golicyna V. V. Golicynu. Moskovskaja delovaja i bytovaja pis’mennost’ XVII veka_0,0,[0],1.0,0.9817809063425835,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Čelobit’e L’va Andreeva Mikulina ob otpuskе ego v derevnju «dlja sbora so služboj». Akty Moskovskogo gosudarstva, izdannye imp. Akademiej nauk_0",0,[3],0.0,0.618558513570422,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Simeon Polockij. Komidija pritči o bludnem syne. Russkaja dramaturgija poslednej četverti XVII i načala XVIII v._0,0,[0],1.0,0.9991779076769299,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Stepennaja kniga («Kniga Stepennaja carskogo rodoslovija»). 2-ja stepen’ [Jaroslav Vladimirovič Mudryj] // PSRL. T. 21_0,0,[0],1.0,0.9070012307749196,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Kupčaja popa Petra u Trofima, Kharitona i Dementija na navolok na reke Ljavle // Gramoty Velikogo Novgoroda i Pskov_0",0,[3],0.0,0.7368148347961126,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Carskaja gramota kungurskomu voevode Alekseju Kalitinu o predostavlenii zemskim starostam i celoval’nikam sbora streleckich, obročnych i drugich deneg i o nevmešatel’stve v rasporjaženija po označennym sboram voevod_0",0,[0],1.0,0.9971647065046501,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Carskaja gramota kungurskomu voevode Alekseju Kalitinu o predostavlenii zemskim starostam i celoval’nikam sbora streleckich, obročnych i drugich deneg i o nevmešatel’stve v rasporjaženija po označennym sboram voevod_0",0,[0],1.0,0.9971647065046501,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Delo o duėli v Moskve seržantov Petra Fal’ka i Tomasa Grel’sa_0,0,[0],1.0,0.9971647065046501,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Dokončanie velikogo knjazja Vasilija Vasil’eviča s velikim knjazem rjazanskim Ivanom Fedorovičem. Gramota v. kn. Vasilija Vasil’eviča v. kn. Ivanu Fedoroviču // Duchovnye i dogovornye gramoty, № 47_0",0,[0],1.0,0.7951030311142331,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"The First Novgorod Chronicle, Synodal manuscript_0",0,[0],1.0,0.9582068665354111,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+L. Aničkov V.T. Vyndomskomu // Gramotki_0,0,[0],1.0,0.9384248673307914,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Челобитная посадских людей Вязьмы об обложении их посильным сошным окладом по дозору писцов С. И. Воейкова и Д. Прокофьева_0,0,[0],1.0,0.9873255178254026,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Ivan Groznyj. Poslanie pol’skomu korolju Stefanu Batoriju 1579 goda // Biblioteka literatury Drevnej Rusi_0,0,[0],1.0,0.9214223034541392,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Novgorodskaja povest’ o pochode Ivana III Vasil’eviča na Novgorod // Biblioteka literatury Drevnej Rusi_0,0,[0],1.0,0.711232853357809,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Nakaz Afanasiju Filippoviču Paškovu na voevodstvo v Daurskoj zemle_0,0,[0],1.0,0.9066423333399463,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Dogovornye gramoty Novgoroda s tverskim velikim knjazem Michailom Jaroslavičem. Gramota tverskaja // Gramoty Velikogo Novgoroda i Pskova_0,0,[0],1.0,0.9293849943611743,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Poslanie mitropolita Simona velikoknjažeskomu namestniku Velikoj Permi knjazju Matveju Michajloviču, vsem mirjanam i duchovenstvu Velikoj Permi s predpisaniem strogo sobljudatʹ christianskuju obrjadnostʹ, ne poklonjatʹsja jazyčeskomu idolu Vojpelju i prekratitʹ zaključenie brakov po tatarskomu obyčaju levirata // Archiv feodalʹnych zemelʹ XIV–XVI vv._0",0,[0],1.0,0.8398445186490723,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+A. Dement’ev. Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement’eva B. I. Morozovu o pobege krest’jan der. Piskova M. Titova i A. Vasil’eva i ob otkaze slug echat’ za nimi v pogonju // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9990759803405782,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"I. Perfil′ev. Čelobitnye krest′jan s. Gorodnja (Tver. u.) I. Perfil′eva s tov. o dače im na obrok 8 des. zemli, rasčiščennoj I. Brylkinym, i o razrešenii im rasčistit′ les otdel′no ot mira // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9345868288814188,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pamjat′ B. I. Morozova I. Rachmangulu o vysylke v Moskvu lošadej iz s. Pavlovskogo (Zvenigorod. u.) // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.6971672928543601,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266_0",0,[0],1.0,0.9567390268874111,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska M. Andreeva iz s. Kotel′nikov (Moskov. u.) moskovskomu prikazčiku S. N. Kiselevu o trudnostjach rasčistki lesa v bolotach bliz pus. Kazarinova_0,0,[0],1.0,0.9286677908080956,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Lotošina (Tver. u.) I. Brylkina moskovskomu prikazčiku S. N. Kiselevu s zaprosom o meste dlja vypasa lošadej // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.7393357363260086,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu o posylke v Moskvu krest′janina Okul′ki Dement′eva s čelobitnoj o prieme ego v votčinu // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9868112370305897,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu o posadke i privivke plodovych derev′ev v s. Pavlovskom i v Onufrieve monastyre // Акты хозяйства Б. И. Морозова_0,0,[0],1.0,0.9925077175881084,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu s zaprosom po povodu perenjatogo plota vdovy T. Naščokinoj, razrušivšego most // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9777978286076323,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pamjat′ B. I. Morozova prikazčiku s. Edimonova (Tver. u.) S. Gol′covu o vydače skudnym krest′janam chleba na semena po ich čelobit′ju // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.7672325469209585,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) V. Gnezdova i K. Nagaeva B. I. Morozovu s doneseniem o chode rasčiški lesa v Pluškine i s zaprosom o meste dal′nejšich rabot // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9210633685048598,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pamjat′ B. I. Morozova prikazčiku s. Kotel′nikov (Moskov. u.) V. Gnezdovu o vydače K. Nagaevu po ego trebovaniju ovsa // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.7880281467023708,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Gramota B. I. Morozova prikazčiku s. Gorodnja (Tver. u.) S. Gol′covu o zaseve rasčiščennoj I. Brylkinym zemli, ob otvode 3 des. zemli novomu krest′janinu K. Stefanovu, ob uchode za lošad′mi i pr // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9999818331069912,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pamjat′ B. I. Morozova prikazčiku s. Kotel′nikov (Moskov. u.) V. Gnezdovu s ukazanijami po rasčistke lesa u pus. Kazarinovoj i Glinkovoj // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.7302042426669972,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Uspenskij sbornik_0,0,[0],1.0,0.9981202711987338,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu o polučenii ryby, prislannoj iz Moskvy s L. Afanas′evym // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9932968897810601,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Gramota B. I. Morozova prikazčiku s. Gorodnja (Tver. u.) S. Gol′covu s otkazom na čelobit′e krest′jan, I. Perfil′eva s tov., i s rasporjaženiem o zaseve bojarskimi semenami zemli, rasčiščennoj I. Brylkinym, i ob otvode lesa dlja rasčištki vsem krest′janam s. Gorodnja // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9993947053324809,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Kotel′nikov (Moskov. u.) V. Gnezdova B. I. Morozovu o chode posadki i privivki plodovych derev′ev // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9654694729631682,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu o perevode v konjuchi trubačej S. Luk′janova i Ja. Maršalka // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.990424861293656,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiski 1) prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu i 2) Petra Dmitrieva moskovskomu prikazčiku S. N. Kiselevu — o dostavke v Pavlovskoe živych leščej i sostojanii ich // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9761300482079512,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"A. Dement′ev. Dve otpiski prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva v Moskvu B. I. Morozovu i prikazčiku S. N. Kiselevu o pribytii delovych ljudej, o chode rabot po rasčiške lesa, ob ozorstve i neposlušanii delovych ljudej // Akty chozjajstva B. I. Morozova_0",0,[0],1.0,0.9997536281918868,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Ochotničij zagovor // Russkie zagovory_0,0,[0],1.0,0.735134947738189,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Zagovor ot gryži // Russkie zagovory_0,0,[0],1.0,0.9524329422620422,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Vvoznaja gramota (ot imeni voevod bojar kn. Dmitrija Timofeeviča Trubeckogo i Ivana Martinoviča Zaruckogo) Sjujuš mirze Isupoviču na pomest′e ego otca i brat′ev ss. Bogorodickoe, Nikolskoe, Pongilo i dr. v Romanovskom u. s usloviem soderžanija služilych tatar // M. V. Moiseev. K istorii zemlevladenija roda Jusupovych v načale XVII veka_0",0,[0],1.0,0.9952459691879932,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Vojskovaja otpiska o perechode nekotorych nagajskich murz v cholopstvo gosudarja, o predstojaščem pochode turok i krymcev pod Azov vesnoju i o neobchodimosti ispravit′ ukreplenija v Azove (fragment 2) // Russkaja istoričeskaja biblioteka. T. XVIII. Donskie dela_0",0,[0],1.0,0.9994904938011373,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"The Kiev Chronicle, Codex Hypatianus_0",0,[0],1.0,0.9790340706342516,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Otpiska prikazčika s. Pavlovskogo (Zvenigorod. u.) A. Dement′eva B. I. Morozovu o priežde mastera rudnika Michaila i o ego rabote // Akty chozjajstva B. I. Morozova_0,0,[0],1.0,0.9080645232843783,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Official grant of fishing rights from Metropolitan Simon to the Kuz'ma Monastery_0,0,[0],1.0,0.6718316875434855,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Sentence without trial, signed by the grand prince’s diak Vasilij Kulešin_0",0,[0],1.0,0.7157483471463001,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Legal protection granted by Prince Mikhail Andreevich to the Metropolitan Monastery of the Great Resurrection_0,0,[3],0.0,0.5218916617171643,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Charter of grant issued by Vasily III Ivanovich for the Monastery of the Holy Resurrection at Belozersk in Cherepovets._0,0,[0],1.0,0.9844612542096124,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Copy of the charter of Tsar Fyodor I Ivanovich to the Monastery of the Mother of God of Saint Joseph_0,0,[0],1.0,0.9948352549734538,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Magical-religious prayer_0,0,[0],1.0,0.7913700577762904,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Magical-religious prayer 2_0,0,[0],1.0,0.9526119134441305,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Magical-religious prayer 3_0,0,[0],1.0,0.7679089198120292,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_017_0,0,[0],1.0,0.9999999940416591,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"The 1229 Treaty between Smolensk, Riga and Gotland (version A)_0",0,[0],1.0,0.9103157789202887,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_018_0,0,[0],1.0,0.9999999205493525,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_019_0,0,[0],1.0,0.9997228345274544,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_020_0,0,[0],1.0,0.9991620275599241,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_021_0,0,[0],1.0,0.9999976487364888,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_022_0,0,[0],1.0,0.999998685806454,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_023_0,0,[0],1.0,0.9979155278956071,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_024_0,0,[0],1.0,0.9995304326190698,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_025_0,0,[0],1.0,0.998785945023659,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_026_0,0,[0],1.0,0.9997271741061577,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_027_0,0,[0],1.0,0.999821556396376,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+SLOVO OUPATIJA jefesăkago_0,0,[0],1.0,0.999999999997808,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_028_0,0,[0],1.0,0.9993432106452328,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_029_0,0,[0],1.0,0.9999076370395321,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_030_0,0,[0],1.0,0.8390917172183152,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_031_0,0,[0],1.0,0.9984288447821671,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_032_0,0,[0],1.0,0.9925847174868735,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_033_0,0,[0],1.0,0.9270185941635432,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_034_0,0,[0],1.0,0.9999999999992297,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_035_0,0,[0],1.0,0.9935055405211045,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_036_0,0,[0],1.0,0.9985620132217891,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_037_0,0,[0],1.0,0.9999636803964872,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo stgo Polouta Rim'skago o t'kovanii danilově_0,0,[0],1.0,0.9999999953659331,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_038_0,0,[0],1.0,0.9988346403422075,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_039_0,0,[0],1.0,0.7507747269100519,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_040_0,0,[0],1.0,0.9997304867823702,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_041_0,0,[0],1.0,0.9999983865714649,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_042_0,0,[0],1.0,0.992075056546201,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_043_0,0,[0],1.0,0.999767091306851,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_044_0,0,[0],1.0,0.9999977009267755,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_045_0,0,[0],1.0,0.999953411751619,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_046_0,0,[0],1.0,0.9998777906983158,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_001_0,0,[0],1.0,0.9999381589553813,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+A ce t'kovanie danilovo_0,0,[0],1.0,0.9999007343630499,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_002_0,0,[0],1.0,0.9999991599028769,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_003_0,0,[0],1.0,0.9999511250783052,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_004_0,0,[0],1.0,0.9998598598077332,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_005_0,0,[0],1.0,0.9999170920810301,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_006_0,0,[0],1.0,0.998998763527307,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_007_0,0,[0],1.0,0.999984976568501,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_009_0,0,[0],1.0,0.8937356778922133,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_010_0,0,[0],1.0,0.9982544656235492,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_011_0,0,[0],1.0,0.9995368503042377,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_012_0,0,[0],1.0,0.9998572352220089,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Viděnije Danila Propoka o crěch' i poslědnich' dnech' i o končině věka_0,0,[0],1.0,0.9999999651455099,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_013_0,0,[0],1.0,0.999990410343407,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_014_0,0,[0],1.0,0.9892112472644674,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_015_0,0,[0],1.0,0.9818010187178744,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bezobrazov_1_016_0,0,[0],1.0,0.9739353524380471,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 135_0,3,[3],1.0,0.9794863190016028,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 138_0,3,[0],0.0,0.9796410539046564,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]]"
+Polotsk letters 139_0,3,[3],1.0,0.999999999980316,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 140_0,3,[3],1.0,0.9999991259541298,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 141_0,3,[3],1.0,0.996358052908503,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 143_0,3,[3],1.0,0.9923802367849177,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Sinajski Psaltir_0,1,[0],0.0,0.7352149103536115,"[[0 0 0 0]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Stago Metodija Jepiskoupa Patr'skago Oukazanie istoje o crěch' i o poslědnich' dnech' i lětchă_0,0,[0],1.0,0.9987129446437456,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 144_0,3,[3],1.0,0.9997127824011074,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 145_0,3,[3],1.0,0.9884159215825901,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 146_0,3,[3],1.0,0.9993677419488259,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 147_0,3,[3],1.0,0.9999889286612613,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 148_0,3,[3],1.0,0.9999999999194349,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 149_0,3,[3],1.0,0.9999999270722053,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 155_0,3,[3],1.0,0.9999461021344181,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 156_0,3,[3],1.0,0.9999996319206033,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 158_0,3,[3],1.0,0.9993624792834443,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 159_0,3,[3],1.0,0.9999999999464424,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Stich' videnije Danila pr(o)rka_0,0,[0],1.0,0.9983747591271264,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 160_0,3,[3],1.0,0.9998944943809291,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 161_0,3,[3],1.0,0.99979099425389,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 162_0,3,[3],1.0,0.999999776190362,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 163_0,3,[3],1.0,0.9999999997287137,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 164_0,3,[3],1.0,0.9999990635811737,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 165_0,3,[3],1.0,0.9999999899389375,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 166_0,3,[3],1.0,0.9999999982465084,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 167_0,3,[3],1.0,0.9999998163835484,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 168_0,3,[3],1.0,0.9999892374846876,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 169_0,3,[3],1.0,0.9999999998970266,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Viděnije Isaie Pro(r)ka o poslědnem' vrěmeni [č]to choščhet' byti rodou člo[v]čju poslědnemou kolěnou_0,0,[0],1.0,0.9973801413650165,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 170_0,3,[3],1.0,0.9999993656973847,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 171_0,3,[3],1.0,0.9999999488421543,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 176_0,3,[3],1.0,0.9999541700150179,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 177_0,3,[3],1.0,0.9999690365702983,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 178_0,3,[3],1.0,0.9999987653485964,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 180_0,3,[3],1.0,0.9999971640218738,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 181_0,3,[3],1.0,0.9999998715244908,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 182_0,3,[3],1.0,0.9999956654209011,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 185_0,3,[3],1.0,0.99995992620694,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 186_0,3,[3],1.0,0.9999970419724923,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Pan'dechovo pr(o)rč'skoje skazanie_0,0,[0],1.0,0.9937341854614814,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 187_0,3,[3],1.0,0.9999972649596438,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 188_0,3,[3],1.0,0.9999983516232698,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 189_0,3,[3],1.0,0.9999999161075576,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 190_0,3,[3],1.0,0.9999997726345857,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 191_0,3,[3],1.0,0.9999995378559601,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 192_0,3,[3],1.0,0.9999997626515215,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 194_0,3,[3],1.0,0.999997392665675,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 195_0,3,[3],1.0,0.9999999999913805,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 196_0,3,[3],1.0,1.0,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 198_0,3,[3],1.0,0.9998998446927706,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Russkaja Pravda_0,0,[0],1.0,1.0,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 199_0,3,[3],1.0,0.9999951494315947,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 200_0,3,[3],1.0,0.9997107230198903,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 201_0,3,[3],1.0,0.9999999176189031,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 202_0,3,[3],1.0,0.9951119087345133,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 203_0,3,[3],1.0,0.9999980816011201,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 204_0,3,[3],1.0,0.9976231534758208,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 206_0,3,[3],1.0,0.9999999690318485,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 207_0,3,[3],1.0,1.0,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 208_0,3,[3],1.0,0.9999999999999576,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 209_0,3,[3],1.0,0.9999999997030691,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+"Missive from the Archbishop of Riga to the Prince of Smolensk, Old Church Slavonic Treebank_0",0,[0],1.0,0.929794925587417,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 210_0,3,[3],1.0,0.9999999999544227,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 211_0,3,[3],1.0,0.9999999999996037,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 212_0,3,[3],1.0,0.9999999999999991,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 213_0,3,[3],1.0,0.9997029178385362,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 214_0,3,[3],1.0,0.999909634049953,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 215_0,3,[3],1.0,0.9997225194995282,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 216_0,3,[3],1.0,0.999999372846678,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 217_0,3,[3],1.0,0.9999997043780519,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 218_0,3,[3],1.0,0.9782495186105151,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 219_0,3,[3],1.0,0.991350647100168,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Birchbark letters_0,0,[0],1.0,0.9898784770019173,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 223_0,3,[3],1.0,0.9999999995681168,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 224_0,3,[3],1.0,0.9999920567680266,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 225_0,3,[3],1.0,0.9999992287273278,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 226-1_0,3,[3],1.0,0.9912401974801995,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 226_0,3,[3],1.0,0.9061452291206507,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 232_0,3,[3],1.0,0.9999998570737023,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 233_0,3,[3],1.0,0.9999714367635588,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 234_0,3,[3],1.0,0.9999547341008098,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 236_0,3,[3],1.0,0.9888076201586418,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 237_0,3,[3],1.0,0.9988208480547565,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Mesecă oktjabr' fei den' Pamjat' podrobnago otza ioanna pustynnika_0,0,[0],1.0,0.999999975203802,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 238_0,3,[3],1.0,0.9996976072381619,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 239_0,3,[3],1.0,0.9999961824651975,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 240_0,3,[3],1.0,0.9999988758322479,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 241_0,3,[3],1.0,0.9999999999772717,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 242_0,3,[3],1.0,0.9995471807659674,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 243_0,3,[3],1.0,0.9999996326356826,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 246_0,3,[3],1.0,0.9987171940938142,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 247_0,3,[3],1.0,0.9999999998076732,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 248_0,3,[3],1.0,0.9952502724620578,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 249_0,3,[3],1.0,0.9999200328630872,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Pochvalno slovo za sv. Kiril_0,0,[0],1.0,0.9501566895535366,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 251_0,3,[3],1.0,0.9999999983322914,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 252_0,3,[3],1.0,0.9966001612822911,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 254_0,3,[3],1.0,0.9952252050960677,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 254a_0,3,[3],1.0,0.9999493225745225,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 255_0,3,[3],1.0,0.9999779195891476,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 257_0,3,[3],1.0,0.9999493658086799,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 258_0,3,[3],1.0,0.989875159091836,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 259_0,3,[3],1.0,0.9999910926216202,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 260_0,3,[3],1.0,0.9962567915789777,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 263_0,3,[3],1.0,0.9910364689919688,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Kanon za polagane rizata i pojasa na Sv. Borodica_0,0,[0],1.0,0.9929137559529527,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 264_0,3,[3],1.0,0.9999999999656206,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 265_0,3,[3],1.0,0.9999999999748708,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 266_0,3,[3],1.0,0.9999840671304315,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 267_0,3,[3],1.0,0.9999998515489545,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 268_0,3,[3],1.0,0.9999619205045547,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 271a_0,3,[3],1.0,0.9862236961898477,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 272_0,3,[3],1.0,0.9999999999996119,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 277_0,3,[3],1.0,0.9947617193191962,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 314_0,3,[3],1.0,0.9999881386186454,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 315_0,3,[3],1.0,0.9999999999700941,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Suprasălski sbornik_0,1,[0],0.0,0.8373814322943404,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvala na prěstavlenie prěstyja bzja_0,0,[0],1.0,0.9989659621639718,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 316_0,3,[3],1.0,0.9561346411985677,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 317_0,3,[3],1.0,0.9739872912992785,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 318_0,3,[3],1.0,0.9999989324457722,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 319_0,3,[3],1.0,0.9998240769798883,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 320_0,3,[3],1.0,0.9979106053996527,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 321_0,3,[3],1.0,0.9991734196910164,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 322_0,3,[3],1.0,0.9999999997889328,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 323_0,3,[3],1.0,0.9999993422509704,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 324_0,3,[3],1.0,0.9999999777908486,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 337_0,3,[3],1.0,0.9999999996373992,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Položenie rizě i poěsou prěstyja bcja_0,0,[0],1.0,0.9743415673766742,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 338_0,3,[3],1.0,0.9999859487563302,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 339_0,3,[3],1.0,0.9999713769829367,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 339a_0,3,[3],1.0,0.9999847203780193,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 341_0,3,[3],1.0,0.9996254465501071,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 342_0,3,[3],1.0,0.9966341721399663,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 343_0,3,[3],1.0,0.9999999194045125,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 344_0,3,[3],1.0,0.9999277690684,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 346_0,3,[3],1.0,0.9999999995260012,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 347_0,3,[3],1.0,0.9933090181062066,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 348_0,3,[3],1.0,0.9819229672494182,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Pochvala na prěstavlenie vlačicja našeja bcja i prisno dvy Marija_0,0,[0],1.0,0.999678040514438,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 349_0,3,[3],1.0,0.8382869663566034,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 350_0,3,[3],1.0,0.9943070319222981,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 351_0,3,[3],1.0,0.9999749504627932,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 352_0,3,[3],1.0,0.9988293674153658,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 353_0,3,[3],1.0,0.9998734613412692,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 354_0,3,[3],1.0,0.9987174065944675,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 355_0,3,[3],1.0,0.9888668698336379,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 358_0,3,[3],1.0,0.9996051594307557,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 359_0,3,[3],1.0,0.9961127682941568,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 360_0,3,[3],1.0,0.9828206803238655,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Prolog i Bogoslovie (Nebesa) ot Isbor na zianieto na Joan Damaskin_0,0,[0],1.0,0.9999999988308548,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 363_0,3,[3],1.0,0.8984376162938005,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 364_0,3,[3],1.0,0.9984178647178825,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 366_0,3,[3],1.0,0.999912663060466,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 366a_0,3,[3],1.0,0.9999999923663875,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 367_0,3,[3],1.0,0.9999545559345838,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 368_0,3,[3],1.0,0.999998787132786,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 375_0,3,[3],1.0,0.9886007911929403,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 376_0,3,[3],1.0,0.9999904095829361,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 378_0,3,[3],1.0,0.9999775654188209,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 379_0,3,[3],1.0,0.999928623608505,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Шестоднев_0,0,[0],1.0,0.9772094090971772,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 380_0,3,[3],1.0,0.9949965124191589,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 381_0,3,[3],1.0,0.9998920825849749,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 382_0,3,[3],1.0,0.999616719755814,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 383_0,3,[3],1.0,0.9999927839157458,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 383a_0,3,[3],1.0,0.9965135661096717,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 385_0,3,[3],1.0,0.5622481387813574,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 389_0,3,[3],1.0,0.9999999886015657,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 390_0,3,[3],1.0,0.9999930565382712,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 391_0,3,[3],1.0,0.999999881101001,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 392_0,3,[3],1.0,0.9999026492547263,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+šestodnev čast 2_0,0,[0],1.0,0.9999996497765992,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 395_0,3,[3],1.0,0.9999541677537905,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 397_0,3,[3],1.0,0.9998880366053049,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 398_0,3,[3],1.0,0.9997932119467631,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 399_0,3,[3],1.0,0.9955155588653546,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 400_0,3,[3],1.0,0.9983808587725322,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 401_0,3,[3],1.0,0.9951543462194038,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 402_0,3,[3],1.0,0.9956632067146478,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 402b_0,3,[3],1.0,0.9996999804495164,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 4011_0,3,[3],1.0,0.9999996944801349,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 413_0,3,[3],1.0,0.9785412299301051,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Life of Sergij of Radonezh_0,0,[0],1.0,0.9654898579248296,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 413a_0,3,[3],1.0,0.9997261549523321,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 414_0,3,[3],1.0,0.9999713100392603,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 414a_0,3,[3],1.0,0.9999999997329663,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 414b_0,3,[3],1.0,0.9999999047212302,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 416_0,3,[3],1.0,0.9991272921022952,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 418_0,3,[3],1.0,0.9622266454481518,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 419_0,3,[3],1.0,0.8398702398285208,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 420_0,3,[3],1.0,0.999999999880415,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 421_0,3,[3],1.0,0.9999998797407126,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 422_0,3,[3],1.0,0.9999999840684191,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Vita Constantini_0,0,[0],1.0,0.989769866763981,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 423_0,3,[3],1.0,0.9999977667350529,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 423a_0,3,[3],1.0,0.9976265373368306,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 424_0,3,[3],1.0,0.9999229128992179,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 425_0,3,[3],1.0,0.9503819713393962,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 426_0,3,[3],1.0,0.9990230995321919,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 427_0,3,[3],1.0,0.9999999983229371,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 428_0,3,[3],1.0,0.9999999450413618,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 429_0,3,[3],1.0,0.9996041262437683,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 431_0,3,[3],1.0,0.999976998242986,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 432_0,3,[3],1.0,0.9999943757101336,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Vita Methodii_0,0,[0],1.0,0.8435092968878235,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 433_0,3,[3],1.0,0.9999985693776404,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 434_0,3,[3],1.0,0.999957205139543,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 434a_0,3,[3],1.0,0.9999999464517104,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 434b_0,3,[3],1.0,0.9999374230681946,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 434v_0,3,[3],1.0,0.9999999999999591,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 435a_0,3,[3],1.0,0.9960808831434357,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 435b_0,3,[3],1.0,0.9999665854991953,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 435g_0,3,[3],1.0,0.9998482072449564,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 435v_0,3,[3],1.0,0.9999999999994755,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 436_0,3,[3],1.0,0.8415631872783819,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+"Dušanova kodifikacija (ZKJU I DZ), Sofijski prepis_0",0,[0],1.0,0.9955627640814515,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 437_0,3,[3],1.0,0.9992427984014397,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 438_0,3,[3],1.0,0.9999988881721715,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 439_0,3,[3],1.0,0.9997160112647487,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 440_0,3,[3],1.0,0.9999959005041414,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 441_0,3,[3],1.0,0.9994483638049804,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 442_0,3,[3],1.0,0.9969897508612527,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 442a_0,3,[3],1.0,0.9999954928154698,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 442b_0,3,[3],1.0,0.985932969656728,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 442v_0,3,[3],1.0,0.9999861664491136,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 443a_0,3,[3],1.0,0.9999969918631809,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Novgorod service book marginalia_0,1,[0],0.0,0.6873267914384618,"[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slova na avva Dorotej_0,0,[0],1.0,0.8588851940449094,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 443b_0,3,[3],1.0,0.967350481594374,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 444_0,3,[3],1.0,0.9999999999419897,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 445_0,3,[3],1.0,0.9999998866180217,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 446_0,3,[3],1.0,0.999999748950612,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 447_0,3,[3],1.0,0.9999999890488401,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 448_0,3,[3],1.0,0.9999999994594007,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 449_0,3,[3],1.0,0.9999997000722143,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 450_0,3,[3],1.0,0.997310703467874,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 451_0,3,[0],0.0,0.5059795959256255,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 452_0,3,[3],1.0,0.9994239270306001,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Slov(o) o vi sněch' iže vidě cr' šaik'iš' oče blg(o)vij_0,0,[0],1.0,0.9999999999934852,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 452a_0,3,[3],1.0,0.9925154493010232,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 452b_0,3,[3],1.0,0.9999999999882083,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 452v_0,3,[3],1.0,0.9748745915821664,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 455_0,3,[3],1.0,0.9999519531959115,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 456_0,3,[3],1.0,0.9997292130574854,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 457_0,3,[3],1.0,0.9997798084501764,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 457a_0,3,[3],1.0,0.9999999999999998,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 457b_0,3,[3],1.0,0.9999954048183282,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 458_0,3,[3],1.0,0.9999999991394044,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 458a_0,3,[3],1.0,0.9999999396180986,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Borilov sinodik_0,0,[0],1.0,0.9993987402066928,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 458b_0,3,[3],1.0,0.9998467473985615,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 458d_0,3,[0],0.0,0.9267470559347912,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 458g_0,3,[3],1.0,0.9999770023180521,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 458v_0,3,[3],1.0,0.998466879441336,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 459_0,3,[3],1.0,0.9970641638668113,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 460_0,3,[3],1.0,0.9952426862366671,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 460a_0,3,[3],1.0,0.999999215197463,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 460b_0,3,[3],1.0,0.9515883033618083,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 460d_0,3,[3],1.0,0.9999186285107043,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 460g_0,3,[3],1.0,0.9999996817138863,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Zadonščina_0,0,[0],1.0,0.9817480541811295,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 460v_0,3,[3],1.0,0.9720300435766899,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 461_0,3,[3],1.0,0.9999999999997724,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 461a_0,3,[3],1.0,0.9999999979011478,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 462_0,3,[3],1.0,0.999999999985536,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 462a_0,3,[3],1.0,0.9999999999999993,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 462b_0,3,[3],1.0,0.9999989873701085,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 464a_0,3,[3],1.0,0.9999999996042461,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 465_0,3,[3],1.0,0.9999999999011944,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 466_0,3,[3],1.0,0.9999979836872922,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 467_0,3,[3],1.0,1.0,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Oustav' stgo velikaago i văselenskago iže vă Nikei vtorago săbora_0,0,[0],1.0,0.9946840152722961,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk letters 468_0,3,[3],1.0,0.9998414270467992,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 470_0,3,[3],1.0,0.9999941301555284,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 471_0,3,[3],1.0,0.9999875606524995,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 472_0,3,[3],1.0,0.9912714908581874,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 473_0,3,[3],1.0,0.9919986144661589,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 474_0,3,[3],1.0,0.9971611678573506,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 475_0,3,[3],1.0,0.9999791328185053,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 476_0,3,[3],1.0,0.9976122185628317,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 477_0,3,[3],1.0,0.9998667710466032,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk letters 478_0,3,[3],1.0,0.9999773800085292,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Rešenie na săbora na patriarch Mina_0,0,[0],1.0,0.9999999991696895,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Ratushna Kniga 1986 - 00_0,3,[3],1.0,0.9235752012940436,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 01_0,3,[3],1.0,0.9925081208856388,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 02_0,3,[3],1.0,0.9309021734926722,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 03_0,3,[3],1.0,0.9821497882123328,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 04_0,3,[3],1.0,0.9863501489398067,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 05_0,3,[3],1.0,0.9546389826549315,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 06_0,3,[3],1.0,0.9410505892490749,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 07_0,3,[3],1.0,0.9365229143955449,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 08_0,3,[3],1.0,0.9880809998456909,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Ratushna Kniga 1986 - 09_0,3,[3],1.0,0.9263522206672662,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Molitva na postavlenie cěsarja (fragment)_0,0,[0],1.0,0.9578932447320813,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Ratushna Kniga 1986 - 10_0,3,[3],1.0,0.8992880105624833,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+The Zudechiv delimitation charter of 1413_0,3,[3],1.0,0.9997024164953716,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Postanova Petra-voevodi i bojars'koi radi 1456 r. pro viplatu daniniturcam (cultanovi Mechemmedovi II)_0,3,[3],1.0,0.9945485101344925,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Stefan voevoda 1473 r. nadae zemlju manastirevi na Moldavnci_0,3,[0],0.0,0.7341424426412042,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]]"
+Zudečivs'ka rozgranična gramota 1413 roku_0,3,[3],1.0,0.9557134363812064,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+"Požalovanie Luckomu zemjaninu, panu Olizaru Šiloviču: Serpinikă, Ljubča, Gorochova, Gubina, Markovičej v Luckomă povětě i Podlescevă, Dorosiča i Povorska — v Mel'nickoj volosti, să ich ugod'jami_0",3,[3],1.0,0.9851602946555359,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+"Požalovanie panu Nemirě Rezanoviču iměnij Litovyžă, Torgovica, Červišča, Stvoloviči să ichă ugod’jami_0",3,[3],1.0,0.9717854365969271,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+"Požalovanie panu Nemirě Rezanoviču iměnija ego brata Micka -Zemno, Dubno, Markovă Stavă, Sernă, Mostišină, să ichă ugod’jami_0",3,[3],1.0,0.6928527554428426,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 68_0,3,[3],1.0,0.9998304573574878,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 71_0,3,[3],1.0,0.9999920915208601,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Tomos unionis_0,0,[0],1.0,0.9999999824178564,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 74_0,3,[3],1.0,0.997577809798477,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 75_0,3,[3],1.0,0.9879969600147448,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 77_0,3,[3],1.0,0.9965908898925834,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 78_0,3,[3],1.0,0.9897507702674065,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 79_0,3,[3],1.0,0.9998777429996573,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 80_0,3,[0],0.0,0.9998749477753887,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]]"
+Polotsk Letters 81_0,3,[3],1.0,0.9993866257323508,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 97_0,3,[3],1.0,0.9999497160119893,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 98-1_0,3,[3],1.0,0.9788659088971459,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 98_0,3,[3],1.0,0.9962575574153116,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Mltva na postavlenie kesara se že i na postavlenie chranitelě polatě_0,0,[0],1.0,0.9913392884020896,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 101_0,3,[3],1.0,0.9999763417866228,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 102_0,3,[3],1.0,0.9999999992619137,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 104_0,3,[3],1.0,0.9999999989766968,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 105_0,3,[3],1.0,0.9999999999510929,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 107_0,3,[3],1.0,0.9999999981180359,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 108_0,3,[3],1.0,0.9999999933458918,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 109_0,3,[3],1.0,0.9999999671572521,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 110_0,3,[3],1.0,0.9926800622299351,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 111_0,3,[3],1.0,0.9999374955549881,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 112_0,3,[3],1.0,0.9999999999991145,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Mlitvy styǫ pjatidesjatnicǫ_0,0,[0],1.0,0.9654124658543124,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 113_0,3,[3],1.0,0.9999999999952325,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 117_0,3,[3],1.0,0.9999070093839598,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 118_0,3,[3],1.0,0.9999997694587065,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 121_0,3,[3],1.0,0.9913084215530055,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 122_0,3,[3],1.0,0.9999996825632909,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 123_0,3,[3],1.0,0.9490392792875464,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 124_0,3,[3],1.0,0.9843579911378999,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 125_0,3,[3],1.0,0.9945887845192906,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 126_0,3,[3],1.0,0.9999999972503686,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 127_0,3,[3],1.0,0.9785748961434189,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Colophon to the Ostromir Codex_0,0,[0],1.0,0.9284345772118924,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+čin' oum'veni v' styi veli četvrtok_0,0,[0],1.0,0.9736863782580497,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 128_0,3,[3],1.0,0.9758677563080679,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 129_0,3,[3],1.0,0.998089191818795,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 130_0,3,[3],1.0,0.9986987205808252,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 131_0,3,[3],1.0,0.9745997601600859,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 133_0,3,[3],1.0,0.9972875794267738,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 132_0,3,[3],1.0,0.9999999999864957,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 134_0,3,[3],1.0,0.999999999997609,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 1_0,3,[3],1.0,0.9987958888752912,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 2_0,3,[3],1.0,0.9978298978213301,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 3_0,3,[3],1.0,0.9996081981943941,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Slovo za različnata nepravda_0,0,[0],1.0,0.9999999991924495,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 4_0,3,[3],1.0,0.5977864388922607,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 5_0,3,[3],1.0,0.8991675053946475,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 5pril_0,3,[3],1.0,0.999999999485635,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 8_0,3,[3],1.0,0.9971899022554068,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 10_0,3,[3],1.0,0.9999989513993719,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 11_0,3,[0],0.0,0.950825077199973,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]]"
+Polotsk Letters 15_0,3,[3],1.0,0.9988071601232862,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 16_0,3,[3],1.0,0.8707908302874895,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 32_0,3,[3],1.0,0.9999998790050781,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 39_0,3,[3],1.0,0.9994027763650137,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Poučenie za spasenieto na dušata_0,0,[0],1.0,0.9769140180116652,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 40_0,3,[3],1.0,0.9998846714892031,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 44_0,3,[3],1.0,0.9973036632557911,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 48_0,3,[3],1.0,0.9999016254632229,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 49_0,3,[3],1.0,0.9182889201677459,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 52_0,3,[3],1.0,0.9970089766277604,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 53_0,3,[3],1.0,0.9558939507430578,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 54_0,3,[3],1.0,0.9998937429335681,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 55_0,3,[3],1.0,0.9985669523599767,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 57_0,3,[3],1.0,0.9968581384599822,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 58_0,3,[3],1.0,0.9999758712667639,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Žitie na sv. Teodopa Aleksanidrijska_0,0,[0],1.0,0.9979045280854439,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Polotsk Letters 62_0,3,[3],1.0,0.9999999999070532,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 63_0,3,[3],1.0,0.9999999999993501,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 65_0,3,[3],1.0,0.9994299577898368,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 66_0,3,[3],1.0,0.9994850555166586,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Polotsk Letters 67_0,3,[3],1.0,0.9980198344144423,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Drugij (Volyns’kij) statut Velykogo knjaživstva Lytovs’kogo 1566 roku. Roždělă 4-j o sud’jachă i o suděchă_0,3,[3],1.0,0.6087067045032799,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Tretij statut Velikogo knjažestva Litovskogo 1588 goda. Roždělă 4-j o sud’jachă i o suděchă_0,3,[3],1.0,0.9511859362978027,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+Obraščenie podkanclera VKL L’va Sapegi k soslovijam Velikogo knjažestva Litovskogo po slučaju prinjatija Statuta VKL (1588 g.)_0,3,[3],1.0,0.8017122783230489,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 1]]"
+The Life of Avvakum_0,0,[0],1.0,0.9559775387172716,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Aleksandra Kuštskogo_0,0,[2],0.0,0.8339119295283699,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Triodna čast na Patriaršeski chomiliar II_0,0,[0],1.0,1.0,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Aleksandra Kuštskogo i Evfimija Sjanžemskogo_0,2,[2],1.0,0.9169896885218616,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Andreja Totemskogo_0,2,[2],1.0,0.7731930878892243,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Arsenija Komel'skogo_0,2,[2],1.0,0.9995056373592632,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Gerasima Vologodskogo_0,2,[2],1.0,0.9026004049358374,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Ignatija Lomskogo_0,2,[2],1.0,0.7637095459081444,"[[0 0 0 0]
+ [0 0 0 0]
+ [1 0 0 0]
+ [0 0 0 0]]"
+Žitie Ignatija Vologodskogo_0,2,[2],1.0,0.9417411899259992,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Innokentija Komel'skogo_0,2,[2],1.0,0.87456360248727,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Žitie Kassiana Ugličskogo_0,0,[2],0.0,0.9991267486739931,"[[0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Stefana Komel'skogo_0,0,[2],0.0,0.8148159936277547,"[[0 0 1 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Feodosija Totemskogo_0,2,[2],1.0,0.8206663580606409,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Slovo pochval'no c'p'sano klimentom' episkoupom' na pamjat' blaženaego proroka Zacharija i o rod'stvě ioana kr'stiatelě_0,0,[0],1.0,0.9551765632219612,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie Vassiana Tiksnenskogo (žitie i čudesa 1–8)_0,2,[2],1.0,0.863597873598063,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Житие Вассиана Тиксненского (чудеса 9–29)_0,2,[2],1.0,0.5622575563323852,"[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]]"
+Pamjat' svjataego Aleksiě člověka bžiě_0,0,[0],1.0,0.9979478210534897,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pachvala prědv'naego žitiě Ilija proroka_0,0,[0],1.0,0.9999999999993805,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvala stouemou Klimenătou patriarchou Rim'skou_0,0,[0],1.0,0.9866628744313011,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo pochval'no archanglou Michailou i Gavriilou_0,0,[0],1.0,0.9837577180372923,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Mstislav’s letter_0,0,[0],1.0,0.9631298178956492,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvala sbjatouemou kurilou Oučitelju clověn'skou jazykou_0,0,[0],1.0,0.9998298520927343,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na pamjat' stouju vr'chov'njuju apostolou Petra i Pav'la_0,0,[0],1.0,0.981754011381525,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo na cvětonos'nǫjǫ nedělǫ_0,0,[0],1.0,0.9544288497051348,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Stgo otca metodiě stchry glas_0,0,[0],1.0,0.9999999997649356,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo pochval'no Noanou Kr'stitelju_0,0,[0],1.0,0.9580109333726695,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Žitie i žizn' prdpbiyǫ matere našę paraskevi_0,0,[0],1.0,0.9889793871898808,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Dioptra na Filip Monotrop_0,0,[0],1.0,0.9990486126501179,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Germanov sbornik Čast' 1 (slovo 1-15)_0,0,[0],1.0,0.9999999999724145,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Germanov sbornik Čast' 2 (slovo 16-28)_0,0,[0],1.0,0.9999999997880102,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Germanov sbornik Čast' 3 (slovo 29-44)_0,0,[0],1.0,0.9999999999891156,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"The Primary Chronicle, Codex Laurentianus_0",0,[0],1.0,0.9488484542847653,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pověsti o isvěstovannyich veščei eže o kralechă pričę_0,0,[0],1.0,0.9874047950842061,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Prěmǫdrago manasia i l'topisca c'branie l'tno 1_0,0,[0],1.0,0.9999999973916562,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Prěmǫdrago manasia i l'topisca c'branie l'tno 2-3_0,0,[0],1.0,0.9999999997808382,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Prěmǫdrago manasia i l'topisca c'branie l'tno 4-5_0,0,[0],1.0,0.999999999531348,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Prěmǫdrago manasia i l'topisca c'branie l'tno 6-7_0,0,[0],1.0,0.9999999994102151,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Berlinski sbornik_0,0,[0],1.0,0.9962835784726207,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Molitva za podpečatvane/neznamenovane na mladenec na osmija den sled raždaneto i priemane na ime. Archaična versija_0,0,[0],1.0,0.9696607002539143,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Bož'stvnaa služba iže v svętych' Vasilia Velikago_0,0,[0],1.0,0.9962524444159288,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Bož'stvnaa služba svętych' liturgia diakonskaa kuri Evevmia, patriarcha Tr'novskago_0",0,[0],1.0,0.9983504021697669,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Kur' Eveimia patriarcha molitva na kotoryǫęžde litię o cari_0,0,[0],1.0,0.7459468644232501,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pooučenie na pamjat' stouju vr'chov'njuju apostolou Petra i Pavla_0,0,[0],1.0,0.9815497398439116,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Pochvalnoe cvętomou Muchaulou voinou, săpisanoe Eveimiem', pariarchom Trănovskym_0",0,[0],1.0,0.9714076621459748,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+"Molitvi protiv epidemii -1,2,3. Iny molitvy, pročitaemyǫ vănegda bǫdet sămrătonosie_0",0,[0],1.0,0.8804588019484965,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Stgo Isaie pr(o)rka o buduši(ch) lětě(ch) i o crěm' skazanie i o antichr(s)ta iže chošč(t) byti_0,0,[0],1.0,0.996968862573915,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+The list of the Novgorodians’ losses_0,0,[0],1.0,0.9999999988604149,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+S' bgom' počinaem' razoumnik' sie je(s) oučite(l) v'sem' clovom' ga ba i spa(s)a našego Iv(s) Cha (I red.)_0,0,[0],1.0,0.9999999999999969,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo ga naše(g) Isu Cha o ne(m) kog(d)a čto sătvoril' e(s) (I red. fragment)_0,0,[0],1.0,0.9999999724075895,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Chrismi na Lăv Mădri_0,0,[0],1.0,0.9924406639948178,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Slovo o antichristě o(č) blvi_0,0,[0],1.0,0.9999999697223094,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Dialozi_0,0,[0],1.0,0.9996407704109759,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
+Pochvalno slovo za Vrăbnica_0,0,[0],1.0,0.9716420790755266,"[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]"
